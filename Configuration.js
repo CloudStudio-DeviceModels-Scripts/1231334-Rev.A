@@ -27,7 +27,7 @@ function getEndpoints(deviceAddress, endpoints)
     e.variableTypeId = 1049;
     var e = endpoints.addEndpoint("2", "Pipe 2", endpointType.genericSensor);
     e.variableTypeId = 1049;
-    endpoints.addEndpoint("3", "CO2 sensor", endpointType.ppmConcentrationSensor, ppmConcentrationSensorSubType.carbonDioxide);
+    endpoints.addEndpoint("3", "Concentration", endpointType.ppmConcentrationSensor, ppmConcentrationSensorSubType.carbonDioxide);
     var e = endpoints.addEndpoint("4", "Kilometers per hour", endpointType.genericSensor);
     e.variableTypeId = 1014;
     var e = endpoints.addEndpoint("5", "Meters per second", endpointType.genericSensor);
